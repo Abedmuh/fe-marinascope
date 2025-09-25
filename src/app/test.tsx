@@ -1,7 +1,7 @@
 'use client'
 import React, { useState } from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { Home, User, Settings, Mail, Star, Zap, Shield, Smartphone,ToolCase } from 'lucide-react';
+import { Home, User, Settings, Mail, Star, Zap, Shield, Smartphone } from 'lucide-react';
 import { Header } from '@/components/common/Header';
 import { Navigation, NavItem } from '@/components/common/Navigation';
 import { FeatureCard } from '@/components/common/FeatureCard';
@@ -15,7 +15,7 @@ const LandingPage: React.FC = () => {
   const [activeSection, setActiveSection] = useState('home');
 
   const navItems: NavItem[] = [
-    { id: 'home', label: 'Home', icon: ToolCase },
+    { id: 'home', label: 'Home', icon: Home },
     { id: 'about', label: 'About', icon: User },
     { id: 'services', label: 'Services', icon: Settings },
     { id: 'contact', label: 'Contact', icon: Mail }
