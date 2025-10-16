@@ -1,0 +1,26 @@
+[
+  {
+    "type": "ip",
+    "query": "8.8.8.8",
+    "name": "Google Public DNS",
+    "description": "Google Public DNS is a free, global Domain Name System (DNS) resolution service designed to make the web faster and more secure.",
+    "location": "United States",
+    "organization": "Google LLC"
+  },
+  {
+    "type": "dns",
+    "query": "trip.ferizy.com",
+    "name": "Ferizy Internal Portal",
+    "description": "Ferizy internal web portal for managing trip schedules, ticketing, and staff coordination within ASDP’s internal network.",
+    "location": "Jakarta, Indonesia",
+    "organization": "PT ASDP Indonesia Ferry (Persero)"
+  },
+  {
+    "type": "dns",
+    "query": "intranet.asdp.co.id",
+    "name": "ASDP Intranet",
+    "description": "Internal network site for ASDP employees providing access to HR, finance, and operational systems.",
+    "location": "Jakarta, Indonesia",
+    "organization": "PT ASDP Indonesia Ferry (Persero)"
+  }
+]
